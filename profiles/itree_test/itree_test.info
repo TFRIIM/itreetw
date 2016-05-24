@@ -1,0 +1,70 @@
+; Packaging information for itree_test
+name = "itree_test"
+description = "itree_test"
+exclusive = "1"
+core = "7.x"
+; ----------
+; Dependencies
+; ----------
+; Administration
+dependencies[] = admin_menu
+dependencies[] = admin_menu_toolbar
+dependencies[] = module_filter
+; Chaos tool suite
+dependencies[] = ctools
+dependencies[] = views_content
+; Core
+dependencies[] = block
+dependencies[] = color
+dependencies[] = comment
+dependencies[] = contextual
+dependencies[] = dashboard
+dependencies[] = dblog
+dependencies[] = field
+dependencies[] = field_sql_storage
+dependencies[] = field_ui
+dependencies[] = file
+dependencies[] = filter
+dependencies[] = help
+dependencies[] = image
+dependencies[] = list
+dependencies[] = menu
+dependencies[] = node
+dependencies[] = number
+dependencies[] = options
+dependencies[] = overlay
+dependencies[] = path
+dependencies[] = rdf
+dependencies[] = search
+dependencies[] = shortcut
+dependencies[] = system
+dependencies[] = taxonomy
+dependencies[] = text
+dependencies[] = update
+dependencies[] = user
+; Development
+dependencies[] = profiler_builder
+; Fields
+dependencies[] = geofield
+dependencies[] = location_cck
+; Location
+dependencies[] = gmap
+dependencies[] = gmap_fields
+dependencies[] = gmap_location
+dependencies[] = gmap_macro_builder
+dependencies[] = location
+dependencies[] = location_entity
+dependencies[] = location_gmap_find_address
+; Other
+dependencies[] = entity
+dependencies[] = geophp
+dependencies[] = ip_geoloc
+dependencies[] = leaflet
+dependencies[] = leaflet_markercluster
+dependencies[] = leaflet_more_maps
+dependencies[] = leaflet_views
+dependencies[] = libraries
+; Views
+dependencies[] = views
+dependencies[] = views_ui
+

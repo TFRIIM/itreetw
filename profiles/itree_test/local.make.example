@@ -1,0 +1,31 @@
+; itree_test make file for local development
+core = "7.x"
+api = "2"
+
+projects[drupal][version] = "7.x"
+; include the d.o. profile base
+includes[] = "drupal-org.make"
+
+; +++++ Libraries +++++
+
+; leaflet_markercluster
+libraries[leaflet_markercluster][directory_name] = "leaflet_markercluster"
+libraries[leaflet_markercluster][type] = "library"
+libraries[leaflet_markercluster][destination] = "libraries"
+libraries[leaflet_markercluster][download][type] = "get"
+libraries[leaflet_markercluster][download][url] = "" ; TODO add download URI
+
+; Profiler
+libraries[profiler][directory_name] = "profiler"
+libraries[profiler][type] = "library"
+libraries[profiler][destination] = "../../profiles/itree_test/libraries"
+libraries[profiler][download][type] = "get"
+libraries[profiler][download][url] = "http://ftp.drupal.org/files/projects/profiler-7.x-2.x-dev.tar.gz"
+
+; leaflet
+libraries[leaflet][directory_name] = "leaflet"
+libraries[leaflet][type] = "library"
+libraries[leaflet][destination] = "libraries"
+libraries[leaflet][download][type] = "get"
+libraries[leaflet][download][url] = "" ; TODO add download URI
+
