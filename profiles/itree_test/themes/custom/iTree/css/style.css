@@ -18,11 +18,12 @@ p, div {
 }
 
 .navbar .navbar-collapse {
-  text-align: center;
+  text-align: left;
+  padding-top:10px;
 }
 /*decoration of navigation menu*/
 .navbar-default .navbar-nav > li > a {
-  font-size: 20px;
+  font-size: 18px;
   color:#ffffff;
 }
 
@@ -34,6 +35,7 @@ p, div {
   color:#ffd740;
   border-bottom:2px solid #ffd740; 
   background-color: transparent;
+  
 }
 
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover {
@@ -42,4 +44,51 @@ p, div {
   border-bottom:2px solid #ffd740;  
 }
 
+/*logo position*/
+.navbar-btn > img {
 
+}
+
+
+/*footer style*/
+.footer {
+  background-color: #009688;
+  color:#ffffff;
+  padding-top:15px;
+  padding-bottom:15px; 
+}
+
+.footer a, .footer a:hover {
+  color:#ffffff;
+}
+
+/*navbar-icon*/
+.navbar-default .navbar-toggle:hover {
+  margin-top: 15px;
+  background-color:#ffd740; 
+}
+
+.navbar-default .navbar-toggle:hover .icon-bar {
+  background-color:#000000;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color:#ffd740;
+}
+
+.navbar-default .navbar-toggle {
+  margin-top:15px;
+  border-color:#ffd740;
+}
+
+.navbar-default .navbar-toggle:focus {
+  background-color:transparent
+}
+
+.navbar-default .navbar-toggle:focus:hover {
+  background-color:#ffd740;
+}
+
+.navbar-default .navbar-toggle .icon-bar:focus{
+  background-color:#ffffff;
+}
