@@ -10,6 +10,24 @@
 p, div {
   font-size: 16px;
 }
+
+/*override link color and hover behavior*/
+a {
+  color:#ffd740;
+}
+
+a:hover {
+  color:#f0f8ff;
+}
+
+a:focus {
+  color:#ffd740;
+}
+
+a:focus:hover {
+  color:#ffd740;
+}
+ 
 /*center navigation menu*/
 .navbar .navbar-nav {
   display:inline-block;
@@ -21,6 +39,7 @@ p, div {
   text-align: left;
   padding-top:10px;
 }
+
 /*decoration of navigation menu*/
 .navbar-default .navbar-nav > li > a {
   font-size: 18px;
@@ -45,10 +64,10 @@ p, div {
 }
 
 /*logo position*/
-.navbar-btn > img {
+.navbar {
+border-radius: 0px;
 
 }
-
 
 /*footer style*/
 .footer {
@@ -92,3 +111,55 @@ p, div {
 .navbar-default .navbar-toggle .icon-bar:focus{
   background-color:#ffffff;
 }
+
+/*landing page first bg settings*/
+
+.view-container-1 {
+  display:block;
+  position:relative;
+  overflow:hidden;
+}
+.front_text1 {
+  left: 25%;
+  right:25%;
+  margin-top:12%;
+  display:block;
+  position: absolute;
+  background-color: rgba(0,150,136,0.65);
+  text-align:center;
+  font-weight:bold;
+  font-size:18px;
+  color: aliceblue;
+  padding:2.2em 2.2em ;
+}
+
+.front_link1 a{
+  display:block;
+  position: absolute;
+  right:33%;
+  left:33%;
+  margin-top: 50px;
+  border: 2px solid #ffd740; 
+  background-color:transparent;
+  border-radius:1em;
+  color:#ffd740;
+  text-align:center;
+  font-size:2em;
+}
+
+.front_link1 a:hover {
+  background-color:#ffd740;
+  color:aliceblue;
+}
+
+.front_link1:focus:hover {
+  background-color:transparent;
+}
+
+.front_bg1{
+   
+}
+
+.views-row-2 .front_text1 {
+  background-color:transparent;
+} 
