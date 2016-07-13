@@ -117,12 +117,13 @@ border-radius: 0px;
 .view-container-1 {
   display:block;
   position:relative;
-  overflow:hidden;
+  
 }
 .front_text1 {
   left: 25%;
   right:25%;
   margin-top:12%;
+  margin-bottom:12%;
   display:block;
   position: absolute;
   background-color: rgba(0,150,136,0.65);
@@ -136,19 +137,19 @@ border-radius: 0px;
 .front_link1 a{
   display:block;
   position: absolute;
-  right:33%;
-  left:33%;
-  margin-top: 50px;
+  right:25%;
+  left:25%;
+  margin:27% 15% 20%;
   border: 2px solid #ffd740; 
   background-color:transparent;
   border-radius:1em;
-  color:#ffd740;
+  color:aliceblue;
   text-align:center;
   font-size:2em;
 }
 
 .front_link1 a:hover {
-  background-color:#ffd740;
+  background-color:transparent;
   color:aliceblue;
 }
 
@@ -156,10 +157,70 @@ border-radius: 0px;
   background-color:transparent;
 }
 
-.front_bg1{
-   
+.view-container-2 {
+  display:block;
+  position:relative;
 }
 
-.views-row-2 .front_text1 {
+.front_text2 {
   background-color:transparent;
-} 
+}
+
+.front_link2 a {
+  display:block;
+  position:absolute;
+  right:25%;
+  left:25%;
+  margin:41% 15% 20%;
+  border: 2px solid #ffd740;
+  background-color:transparent;
+  border-radius:1em;
+  color:aliceblue;
+  text-align:center;
+  font-size:2em;
+}
+
+.view-container-3{
+  display:block;
+  position:relative;
+}
+
+.view-container-3 .front_link3 a{
+  display:block;
+  position:absolute;
+  left:25%;
+  right:25%;
+  border:2px solid #ffd740;
+  border-radius:1em;
+  text-align:center;
+  font-size:2em;
+  margin:25% 15% 20%;
+  
+}
+
+.view-container-3 .front_link3 a:hover{
+  color:#ffd740;
+  
+}
+
+/**.view-container-3 .front_bg3 {
+  float:left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
