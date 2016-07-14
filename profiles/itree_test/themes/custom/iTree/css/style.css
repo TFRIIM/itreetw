@@ -27,6 +27,11 @@ a:focus {
 a:focus:hover {
   color:#ffd740;
 }
+
+/*col-sm-12*/
+section.col-sm-12 {
+  padding:0px;
+}
  
 /*center navigation menu*/
 .navbar .navbar-nav {
@@ -203,16 +208,35 @@ border-radius: 0px;
   
 }
 
-/**.view-container-3 .front_bg3 {
-  float:left;
+/*tools page style configuration*/
+
+#float-title > div.pane-content{
+  display:block;
+  position:absolute;
+  text-align:center;
+  color:#ffd740;
+  font-size:2.4em;
+  background-color: rgba(0,150,136,0.65);
+  margin-top:12%; 
+  padding:15px 46.9%; 
+  z-index:5;
 }
 
+.tools-bg {
+  z-index:1;
+}
 
+.tools-downloadlink .file{
+  border:2px solid #ffd740;
+  text-align:center; 
+  
 
+}
 
-
-
-
+.tools-teaser{
+  
+   
+}
 
 
 
